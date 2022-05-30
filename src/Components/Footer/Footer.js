@@ -42,7 +42,7 @@ const socialMenu = [
 ];
 const Footer = () => {
   return (
-    <div className="mx-10 md:mx-0 grid grid-cols-2 md:grid-cols-5 gap-6">
+    <div className="mt-20 md:mt-0 mx-10 md:mx-0 grid grid-cols-2 md:grid-cols-5 gap-6">
       <div className="mt-2 md:mt-12">
         <img src={Logo} alt="" />
         <h3 className="text-xl font-semibold text-white my-2">@ 2022</h3>

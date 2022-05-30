@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       content: {
         link: 'url("assests/Check.svg")',
+        headerBg: 'url("assests/title-bg.png")',
 
         blackCheck: 'url("assests/black_entypo_check.svg")',
         greenCheck: 'url("assests/green_entypo_check.svg")',
