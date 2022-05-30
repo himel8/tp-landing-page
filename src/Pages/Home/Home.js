@@ -11,11 +11,10 @@ const Home = () => {
   return (
     <div>
       <Banner />
-      <div className="z-10">
-        <Details />
-      </div>
 
-      <div className="bg-[#0F0F0F]  z-[-10]">
+      <Details />
+
+      <div className="bg-[#0F0F0F]">
         <Features />
         <Account />
         <VedioSection />

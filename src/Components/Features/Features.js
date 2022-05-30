@@ -9,6 +9,7 @@ import six from "../../assests/features/6.svg";
 import seven from "../../assests/features/7.svg";
 import eight from "../../assests/features/8.svg";
 import nine from "../../assests/features/9.svg";
+import featureBg from "../../assests/featuresBg.png";
 import Heading from "../Heading/Heading";
 
 const item1 = [
@@ -64,7 +65,8 @@ const Features = () => {
           colorText="Features"
           subTitle="The safe place For Your Coins."
         />
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-6">
+        <img src={featureBg} alt="" />
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-6">
           <div className={`mt-0 md:mt-16 relative `}>
             {item1.map((data, index) => (
               <div className="mb-12" key={index}>
@@ -83,7 +85,7 @@ const Features = () => {
             ))}
           </div>
           {/* image  */}
-          <div className="hidden  relative md:flex justify-center items-center before:absolute before:content-feature before:left-[-36%] before:top-[16%] before:h-full before:"></div>
+        {/* <div className="hidden  relative md:flex justify-center items-center before:absolute before:content-feature before:left-[-36%] before:top-[16%] before:h-full before:"></div>
           <div className={`mt-0 md:mt-16 relative `}>
             {item2.map((data, index) => (
               <div className="mb-8" key={index}>
@@ -101,7 +103,7 @@ const Features = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

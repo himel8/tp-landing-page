@@ -4,7 +4,12 @@ module.exports = {
     letterSpacing: {
       widest: "0.2em",
     },
+
     extend: {
+      screens: {
+        custom: "1180px",
+        // => @media (min-width: 1180px) { ... }
+      },
       content: {
         link: 'url("assests/Check.svg")',
         headerBg: 'url("assests/title-bg.png")',

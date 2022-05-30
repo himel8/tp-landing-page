@@ -28,7 +28,7 @@ const fakeData = [
 
 const Details = () => {
   return (
-    <div className="bg-[#030403] pt-12 pb-16 px-4 w-[90%] mb-4  mx-auto rounded-3xl mt-4 md:w-[95%] md:px-12 md:mt-[-210px] z-1">
+    <div className="bg-[#030403] pt-12 pb-16 px-4 w-[90%] mb-4  mx-auto rounded-3xl mt-4 md:w-[95%] md:px-12 md:mt-[-210px] z-1 relative">
       <h2 className="text-white text-center md:text-left font-semibold text-[24px] md:text-[28px]">
         Private, Affordable And Secure Accounts.
       </h2>

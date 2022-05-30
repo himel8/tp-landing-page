@@ -22,7 +22,7 @@ const Banner = () => {
             The safe place
             <br /> for Your Coins.
           </h2>
-          <div className="flex justify-start items-center flex-wrap ">
+          <div className="flex md:justify-start items-center flex-wrap justify-center">
             <img src={Bitcoin} alt="" className="mr-3" />
             <img src={Ether} alt="" className="mr-3" />
             <img src={Tether} alt="" className="mr-3" />

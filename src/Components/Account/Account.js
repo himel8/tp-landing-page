@@ -60,7 +60,7 @@ const Account = () => {
           className={`  ${item.id % 2 === 1 ? "bg-[#161616]" : "bg-[#0F0F0F]"}`}
         >
           <div
-            className={` w-[80%] mx-auto flex flex-col md:flex-row justify-between items-center py-16 ${
+            className={` w-[80%] mx-auto flex flex-col md:flex-row  custom:justify-between items-center py-16 custom:flex-nowrap flex-wrap justify-center ${
               item.id % 2 === 0 ? "md:flex-row-reverse" : "flex-row"
             }`}
           >
