@@ -26,7 +26,7 @@ const data = [
 ];
 const Values = () => {
   return (
-    <div className="w-full  md:w-[75%] mx-auto mt-8 mb-8 pt-8 pb-8 md:pt-20 md:pb-20 ">
+    <div className="w-full  md:w-[75%] mx-auto mt-8 pt-8 pb-8 md:pt-20 md:pb-20 ">
       {/* upper section  */}
 
       <h2 className="text-3xl font-semibold text-white  px-8 md:px-0 text-center md:text-left">
